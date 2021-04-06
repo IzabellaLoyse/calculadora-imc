@@ -1,3 +1,6 @@
+const calculateButton = document.querySelector(".c-calculator__button");
+
+
 function calculatingImc() {
 	const personWeight = document.querySelector(".person-weight").value;
 
@@ -46,8 +49,9 @@ function calculatingImc() {
     <br>Obesidade grau ||| (mórbida)`
 		);
 	}
+
+	calculateButton.removeEventListener("click", calculatingImc);
 }
 
-document
-	.querySelector(".c-calculator__button")
-	.addEventListener("click", () => calculatingImc());
+
+calculateButton.addEventListener("click", calculatingImc);

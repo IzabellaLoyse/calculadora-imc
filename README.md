@@ -11,7 +11,7 @@
 <h2> 💻 Interface do projeto </h2>
 
 <p> 
-Acesse o link para interagir com a calculadora <a href="https://izabellaloyse.tech/">Calculadora de IMC</a>.
+Acesse o link para interagir com a calculadora <a href="https://calculadora-imc-eta.vercel.app/">Calculadora de IMC</a>.
 </p>
 
 
